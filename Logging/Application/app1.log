@@ -1,0 +1,5 @@
+2025-10-27 12:11:36 - ArithmeticApp - DEBUG - Adding 10 and 15
+2025-10-27 12:11:36 - ArithmeticApp - DEBUG - Subtracting 5 from 20
+2025-10-27 12:11:36 - ArithmeticApp - DEBUG - Multiplying 3 and 7
+2025-10-27 12:11:36 - ArithmeticApp - DEBUG - Dividing 10 by 0
+2025-10-27 12:11:36 - ArithmeticApp - ERROR - Division by zero error

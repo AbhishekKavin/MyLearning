@@ -1,0 +1,15 @@
+''' 
+Difference Between Multiprocessing and Multithreading in Python
+Multithreading:
+1. Definition: Multithreading involves multiple threads within a single process sharing the same memory space.
+2. Use Case: Best suited for I/O-bound tasks where the program spends a lot of time waiting for external resources (e.g., file I/O, network operations).
+3. Global Interpreter Lock (GIL): Python's GIL allows only one thread to execute Python bytecode at a time, which can be a bottleneck for CPU-bound tasks.  
+
+Multiprocessing:
+1. Definition: Multiprocessing involves multiple processes, each with its own memory space and Python interpreter.
+2. Use Case: Best suited for CPU-bound tasks that require heavy computation and can benefit from parallel execution.
+3. Global Interpreter Lock (GIL): Multiprocessing bypasses the GIL by using separate memory spaces for each process, allowing true parallelism.
+Summary:
+- Multithreading is ideal for I/O-bound tasks, while multiprocessing is better for CPU-bound tasks.
+- Multiprocessing provides true parallelism by using separate processes, whereas multithreading is limited by the GIL.
+'''
